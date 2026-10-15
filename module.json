@@ -1,0 +1,48 @@
+{
+  "id": "2old4this-stages-vol3-zh-cn",
+  "title": "2old4this Stages Vol.3 简体中文汉化",
+  "description": "2old4this Stages Vol.3 的简体中文汉化，涵盖日志、场景名称、控制台、设置与运行提示。原模组文件保持不变。",
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "fuAI workspace"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "languages": [
+    {
+      "lang": "cn",
+      "name": "简体中文",
+      "path": "cn.json"
+    }
+  ],
+  "esmodules": [
+    "register.js",
+    "ui-translation.js"
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "2old4this-stages-vol3",
+        "type": "module",
+        "compatibility": {
+          "minimum": "3.0.3"
+        }
+      }
+    ]
+  },
+  "url": "https://github.com/hachimenHato/2old4this-stages-vol3-zh-cn",
+  "manifest": "https://github.com/hachimenHato/2old4this-stages-vol3-zh-cn/releases/latest/download/module.json",
+  "download": "https://github.com/hachimenHato/2old4this-stages-vol3-zh-cn/releases/download/v1.0.0/2old4this-stages-vol3-zh-cn.zip",
+  "readme": "https://github.com/hachimenHato/2old4this-stages-vol3-zh-cn/blob/main/README.md",
+  "bugs": "https://github.com/hachimenHato/2old4this-stages-vol3-zh-cn/issues",
+  "changelog": "https://github.com/hachimenHato/2old4this-stages-vol3-zh-cn/releases"
+}
